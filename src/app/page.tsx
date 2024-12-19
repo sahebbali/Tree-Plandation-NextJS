@@ -1,10 +1,11 @@
+import Banner from "@/components/Banner";
 
 const HomePage = () => {
   return (
-
- <div>
-  <h1>Hello</h1>
- </div>
+    <div className="overflow-hidden">
+    <Banner />
+    
+  </div>
   );
 };
 
