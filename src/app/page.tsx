@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Featured from "@/components/Featured";
 import NewCollection from "@/components/NewCollection";
+import PopularProducts from "@/components/PopularProducts";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Banner />
       <Featured />
       <NewCollection />
+      <PopularProducts />
     </div>
   );
 };
