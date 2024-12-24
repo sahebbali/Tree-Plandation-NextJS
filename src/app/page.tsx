@@ -3,6 +3,7 @@ import Featured from "@/components/Featured";
 import HouseShapePlant from "@/components/HouseShapePlant";
 import NewCollection from "@/components/NewCollection";
 import PopularProducts from "@/components/PopularProducts";
+import SpecialsTreeCollection from "@/components/SpecialsTreeCollection";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <NewCollection />
       <PopularProducts />
       <HouseShapePlant />
+      <SpecialsTreeCollection />
     </div>
   );
 };
