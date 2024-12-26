@@ -6,6 +6,7 @@ import IndoorePlant from "@/components/IndoorePlant";
 import Landscaping from "@/components/Landscaping";
 import NewCollection from "@/components/NewCollection";
 import PopularProducts from "@/components/PopularProducts";
+import Reviews from "@/components/Reviews";
 import SpecialsTreeCollection from "@/components/SpecialsTreeCollection";
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
       <IndoorePlant />
       <Landscaping />
       <Brand />
+      <Reviews />
     </div>
   );
 };
