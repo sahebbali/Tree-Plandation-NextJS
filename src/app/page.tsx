@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Brand from "@/components/Brand";
 import Featured from "@/components/Featured";
 import HouseShapePlant from "@/components/HouseShapePlant";
 import IndoorePlant from "@/components/IndoorePlant";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <SpecialsTreeCollection />
       <IndoorePlant />
       <Landscaping />
+      <Brand />
     </div>
   );
 };
