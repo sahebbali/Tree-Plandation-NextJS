@@ -21,6 +21,7 @@ const HomePage = () => {
       <IndoorePlant />
       <Landscaping />
       <Brand />
+
       <Reviews />
     </div>
   );
