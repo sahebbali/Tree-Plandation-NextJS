@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { TreeBlogItem } from "c:/Users/saheb/Downloads/Tree-Plantation-main/type";
+import { TreeBlogItem } from "../../../../type";
 
 export const POST = async (request: NextRequest) => {
   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
