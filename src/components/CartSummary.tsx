@@ -71,15 +71,15 @@ const CartSummary = () => {
       <h2 className="text-2xl font-semibold mb-4">Cart Summary</h2>
       <div className="flex justify-between py-2">
         <span className="text-lg">Subtotal:</span>
-        <span className="text-lg font-medium">${subtotal.toFixed(2)}</span>
+        <span className="text-lg font-medium">৳{subtotal.toFixed(2)}</span>
       </div>
       <div className="flex justify-between py-2">
         <span className="text-lg">Discount:</span>
-        <span className="text-lg font-medium">${discount.toFixed(2)}</span>
+        <span className="text-lg font-medium">৳{discount.toFixed(2)}</span>
       </div>
       <div className="flex justify-between py-2 border-t mt-4 pt-4">
         <span className="text-xl font-bold">Total:</span>
-        <span className="text-xl font-bold">${total.toFixed(2)}</span>
+        <span className="text-xl font-bold">৳{total.toFixed(2)}</span>
       </div>
       <button
         onClick={handleCheckout}
