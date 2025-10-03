@@ -55,17 +55,17 @@ export default function ContactPage() {
           {/* Contact Information */}
           <div className="space-y-6">
             <div className="flex items-center space-x-4">
-              <FaMapMarkerAlt className="text-blue-600 text-2xl" />
+              <FaMapMarkerAlt className="text-green-500 text-2xl" />
               <span className="text-gray-700">
                 123 Main Street, Dhaka, Bangladesh
               </span>
             </div>
             <div className="flex items-center space-x-4">
-              <FaPhoneAlt className="text-blue-600 text-2xl" />
+              <FaPhoneAlt className="text-green-500 text-2xl" />
               <span className="text-gray-700">+880 1234-567890</span>
             </div>
             <div className="flex items-center space-x-4">
-              <FaEnvelope className="text-blue-600 text-2xl" />
+              <FaEnvelope className="text-green-500 text-2xl" />
               <span className="text-gray-700">support@wevliox.com</span>
             </div>
 
@@ -123,7 +123,7 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+              className="w-full bg-green-500 text-white py-2 rounded hover:bg-blue-700 transition"
             >
               Send Message
             </button>
