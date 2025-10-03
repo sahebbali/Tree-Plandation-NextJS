@@ -7,7 +7,7 @@ import SpecialsTreeCollection from "@/components/SpecialsTreeCollection";
 import Reviews from "@/components/Reviews";
 import Brand from "@/components/Brand";
 import IndoorePlant from "@/components/IndoorePlant";
-import Landscaping from "@/components/Landscaping";
+// import Landscaping from "@/components/Landscaping";
 
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       <HouseShapePlant />
       <SpecialsTreeCollection />
       <IndoorePlant />
-      <Landscaping />
+      {/* <Landscaping /> */}
       <Brand />
       <Reviews />
     </div>

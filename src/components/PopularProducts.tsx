@@ -106,7 +106,7 @@ const PopularProducts = () => {
       </Swiper>
 
       {/* Pagination Section */}
-      <div className="swiper-pagination mt-6"></div>
+      {/* <div className="swiper-pagination mt-6"></div> */}
     </Container>
   );
 };
